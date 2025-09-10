@@ -67,27 +67,7 @@ app.put('/AllRecipes/:id' ,async(req ,res) =>{
 })
 
 
-// 
 
-//  app.put("/AllRecipes/:id", async (req, res) => {
-//   const id = req.params.id;
-//   const updatedRecipe = req.body;
-//   const filter = { _id: new ObjectId(id) };
-
-//   const updateDoc = {
-//     $set: {
-//       ...updatedRecipe
-//     },
-//   };
-
-//   const result = await reacipiMaker.updateOne(filter, updateDoc);
-//   res.send(result);
-// });
-
-
-
-
-// 
 
 
         app.get("/myRecipes/:email", async (req, res) => {
