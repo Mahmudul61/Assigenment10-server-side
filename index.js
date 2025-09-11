@@ -103,7 +103,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-  res.send('My rannar reacipi all!')
+  res.send('My Cooking reacipi all!')
 })
 
 app.listen(port, () => {
